@@ -5,14 +5,14 @@ const mongoose = require('mongoose')
 const cors = require('cors'); 
 
 app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "https://codeweb-front-client.onrender.com/");
+  res.header("Access-Control-Allow-Origin", "https://codeweb-front-client.onrender.com");
   res.header("Access-Control-Allow-Methods", "GET, PUT, POST");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
 
 app.use(cors({
-    origin: 'https://codeweb-front-client.onrender.com/'// Allow requests only from this origin
+    origin: 'https://codeweb-front-client.onrender.com'// Allow requests only from this origin
     
   }));
 
