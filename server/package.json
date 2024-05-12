@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "testing",
   "main": "server.js",
-  
   "scripts": {
     "devStart": "nodemon server.js",
     "dev": "nodemon -L server.js"
@@ -13,6 +12,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.1",
+    "mongodb": "^6.6.1",
     "mongoose": "^8.2.2"
   },
   "devDependencies": {
