@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 const cors = require('cors'); 
 
 app.use(cors({
-    origin: 'http://localhost:3000' || 'https://codeweb-front-client.onrender.com/'// Allow requests only from this origin
+    origin: 'https://codeweb-front-client.onrender.com/'// Allow requests only from this origin
     
   }));
 
